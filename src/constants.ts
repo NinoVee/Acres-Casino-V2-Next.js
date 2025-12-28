@@ -27,26 +27,22 @@ export const LIVE_EVENT_TOAST = true;
 
 export const FOOTER_LINKS = [
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-    title: "👨‍💻 Build your own",
-  },
-  {
     href: "https://explorer.gamba.so/create",
-    title: "🚀 Create Pool",
+    title: "💚 Add Liquidity",
   },
   {
-    href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
+    href: "https://Acres.cc/",
+    title: "♻ About Us",
   },
   {
-    href: "https://discord.com/invite/HSTtFFwR",
+    href: "https://discord.gg/rJaZUfryDx",
     title: "💬 Join Discord",
   },
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://twitter.com/Stuffdoe_eth",
+  title: "Acres = Reparations",
 };
 
 /******************************************
@@ -118,15 +114,15 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // GUAC
+  // ACRES
   {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
-    image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
-    decimals: 5,
-    baseWager: 2000000e5,
+    mint: new PublicKey('9hTF4azRpZQFqgZ3YpgACD3aSbbB4NkeEUhp7NKZvmWe'),
+    name: 'REPARATIONS',
+    symbol: 'ACRES',
+    image: '/MLK LOGO.JPG',
+    baseWager: 1e6,
+    decimals: 6,
+    baseWager: 0.01e6,
   },
 
   // Add New Public pool
