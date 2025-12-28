@@ -67,16 +67,17 @@ export default function HomePage() {
             </button>
           </div>
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
+              💰 Buy $Acres
             <button
               onClick={() =>
-                window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")
+                window.open("https://jup.ag/swap/SOL-9hTF4azRpZQFqgZ3YpgACD3aSbbB4NkeEUhp7NKZvmWe")
               }
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              👨‍💻 Build your own
+              ♻ About Us
             </button>
             <button
-              onClick={() => window.open("https://gamba.so/docs")}
+              onClick={() => window.open("https://www.reparationsacres.com/")}
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               📖 Gamba Docs
@@ -88,7 +89,7 @@ export default function HomePage() {
               🌐 Explorer
             </button>
             <button
-              onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
+              onClick={() => window.open("https://discord.gg/rJaZUfryDx")}
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               💬 Join Discord
